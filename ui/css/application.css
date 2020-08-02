@@ -1,0 +1,169 @@
+.flex {
+  display: flex;
+}
+.flex.reverse {
+  flex-direction: row-reverse;
+}
+.flex.column {
+  flex-direction: column;
+}
+.flex.column.reverse {
+  flex-direction: column-reverse;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
+}
+.page-content {
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    z-index: 10;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-name: fade-in;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.fade-out {
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-name: fade-out;
+}
+
+@keyframes fade-in-upwards {
+  from {
+    opacity: 0;
+    transform: translateY(100vh);
+    visibility: visible;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in-upwards {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: fade-in-upwards;
+  animation-timing-function: ease;
+}
+
+@keyframes fade-out-upwards {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-100vh);
+  }
+}
+.fade-out-upwards {
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-name: fade-out-upwards;
+  animation-timing-function: ease;
+}
+
+.toc {
+  line-height: 2;
+  margin-right: 50px;
+  margin-top: 50px;
+  padding: 1em;
+  position: sticky;
+  top: 50px;
+}
+.toc ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.toc ul ul {
+  padding-left: 2em;
+}
+.toc li a {
+  color: #aaa;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.toc li.visible > a {
+  color: #111;
+  transform: translate(5px);
+}
+
+.toc-marker {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.toc-marker path {
+  transition: all 0.3s ease;
+}
+
+.contents {
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-size: 1.2em;
+  max-width: 70%;
+}
+.contents img {
+  max-width: 100%;
+}
+.contents .code-block {
+  max-width: 100%;
+  overflow: auto;
+  white-space: pre;
+}
+.contents .code-block code {
+  background-color: #f9f9f9;
+  display: block;
+  padding: 10px;
+}
+.contents .code-inline {
+  background-color: #f9f9f9;
+  padding: 4px;
+}
+.contents h1 h2 {
+  padding-top: 1em;
+}
+.contents h1 {
+  margin-top: 1.2em;
+}
+.contents h1 {
+  font-size: 2em;
+}
+.contents h2 {
+  font-size: 1.5em;
+}
+
+/*# sourceMappingURL=application.css.map */

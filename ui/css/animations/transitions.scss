@@ -1,0 +1,79 @@
+@keyframes fade-in {
+
+  from {
+    opacity: 0;
+    z-index: 10;
+  }
+
+  to {
+    opacity: 1;
+  }
+
+}
+
+.fade-in {
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+  animation-name: fade-in;
+}
+
+@keyframes fade-out {
+
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+
+}
+
+.fade-out {
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+  animation-name: fade-out;
+}
+
+@keyframes fade-in-upwards {
+
+  from {
+    opacity: 0;
+    transform: translateY(100vh);
+    visibility: visible;
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+.fade-in-upwards {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: fade-in-upwards;
+  animation-timing-function: ease;
+}
+
+@keyframes fade-out-upwards {
+
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-100vh);
+  }
+
+}
+
+.fade-out-upwards {
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-name: fade-out-upwards;
+  animation-timing-function: ease;
+}

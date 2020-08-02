@@ -1,0 +1,47 @@
+
+$menuWidth: 14em;
+$menuPaddingLeft: 3em;
+
+.toc {
+  line-height: 2;
+  margin-right: 50px;
+  margin-top: 50px;
+  padding: 1em;
+  position: sticky;
+  top: 50px;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul ul {
+    padding-left: 2em;
+  }
+
+  li a {
+    color: #aaa;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .3s cubic-bezier(.23, 1, .32, 1);
+  }
+
+  li.visible>a {
+    color: #111;
+    transform: translate(5px);
+  }
+}
+
+.toc-marker {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+
+  path {
+    transition: all .3s ease;
+  }
+}
