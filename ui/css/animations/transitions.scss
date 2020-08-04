@@ -17,6 +17,12 @@
   animation-name: fade-in;
 }
 
+.fade-in-long {
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-name: fade-in;
+}
+
 @keyframes fade-out {
 
   from {
@@ -31,6 +37,12 @@
 
 .fade-out {
   animation-duration: .5s;
+  animation-fill-mode: forwards;
+  animation-name: fade-out;
+}
+
+.fade-out-long {
+  animation-duration: .4s;
   animation-fill-mode: forwards;
   animation-name: fade-out;
 }

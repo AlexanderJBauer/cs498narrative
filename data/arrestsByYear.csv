@@ -1,0 +1,688 @@
+id,year,category,number
+1,2014,Murder and nonnegligent manslaughter,10571
+2,2014,Forcible rape,21007
+3,2014,Robbery,94403
+4,2014,Aggravated assault,372685
+5,2014,Burglary,237974
+6,2014,Larceny-theft,1238190
+7,2014,Motor vehicle theft,68422
+8,2014,Arson,9394
+11,2014,Other assaults,1093258
+12,2014,Forgery and counterfeiting,56783
+13,2014,Fraud,141293
+14,2014,Embezzlement,16227
+15,2014,Stolen property: buying or receiving or possessing,88946
+16,2014,Vandalism,198400
+17,2014,Weapons: carrying or possessing or etc.,140713
+18,2014,Prostitution and commercialized vice,47598
+19,2014,Sex offenses (except forcible rape and prostitution),55456
+20,2014,Drug abuse violations,1561231
+21,2014,Gambling,5637
+22,2014,Offenses against family and children,102336
+23,2014,Driving under the influence,1117852
+24,2014,Liquor laws,321125
+25,2014,Drunkenness,414854
+26,2014,Disorderly conduct,436014
+27,2014,Vagrancy,27380
+28,2014,All other offenses,3274430
+29,2014,Suspicion (not included in totals),1310
+30,2014,Curfew and loitering law violations,53654
+31,2015,Murder and nonnegligent manslaughter,11092
+32,2015,Forcible rape,22863
+33,2015,Robbery,95572
+34,2015,Aggravated assault,376154
+35,2015,Burglary,216010
+36,2015,Larceny-theft,1160390
+37,2015,Motor vehicle theft,77979
+38,2015,Arson,8834
+41,2015,Other assaults,1081019
+42,2015,Forgery and counterfeiting,55333
+43,2015,Fraud,133138
+44,2015,Embezzlement,15909
+45,2015,Stolen property: buying or receiving or possessing,88576
+46,2015,Vandalism,191015
+47,2015,Weapons: carrying or possessing or etc.,145358
+48,2015,Prostitution and commercialized vice,41877
+49,2015,Sex offenses (except forcible rape and prostitution),51388
+50,2015,Drug abuse violations,1488707
+51,2015,Gambling,4825
+52,2015,Offenses against family and children,94837
+53,2015,Driving under the influence,1089171
+54,2015,Liquor laws,266250
+55,2015,Drunkenness,405880
+56,2015,Disorderly conduct,386078
+57,2015,Vagrancy,25151
+58,2015,All other offenses,3218880
+59,2015,Suspicion (not included in totals),1389
+60,2015,Curfew and loitering law violations,44802
+61,2013,Murder and nonnegligent manslaughter,10231
+62,2013,Forcible rape,16863
+63,2013,Robbery,94406
+64,2013,Aggravated assault,358860
+65,2013,Burglary,252629
+66,2013,Larceny-theft,1231580
+67,2013,Motor vehicle theft,64566
+68,2013,Arson,10509
+71,2013,Other assaults,1097741
+72,2013,Forgery and counterfeiting,60969
+73,2013,Fraud,143528
+74,2013,Embezzlement,15730
+75,2013,Stolen property: buying or receiving or possessing,92691
+76,2013,Vandalism,201168
+77,2013,Weapons: carrying or possessing or etc.,137779
+78,2013,Prostitution and commercialized vice,48620
+79,2013,Sex offenses (except forcible rape and prostitution),57925
+80,2013,Drug abuse violations,1501043
+81,2013,Gambling,6024
+82,2013,Offenses against family and children,101247
+83,2013,Driving under the influence,1166824
+84,2013,Liquor laws,354872
+85,2013,Drunkenness,443527
+86,2013,Disorderly conduct,467993
+87,2013,Vagrancy,25755
+88,2013,All other offenses,3282651
+89,2013,Suspicion (not included in totals),1096
+90,2013,Curfew and loitering law violations,56371
+91,2016,Murder and nonnegligent manslaughter,11788
+92,2016,Forcible rape,23632
+93,2016,Robbery,95754
+94,2016,Aggravated assault,383977
+95,2016,Burglary,207325
+96,2016,Larceny-theft,1050058
+97,2016,Motor vehicle theft,86088
+98,2016,Arson,9812
+101,2016,Other assaults,1078808
+102,2016,Forgery and counterfeiting,56661
+103,2016,Fraud,128531
+104,2016,Embezzlement,15937
+105,2016,Stolen property: buying or receiving or possessing,93981
+106,2016,Vandalism,195951
+107,2016,Weapons: carrying or possessing or etc.,156777
+108,2016,Prostitution and commercialized vice,38306
+109,2016,Sex offenses (except forcible rape and prostitution),51063
+110,2016,Drug abuse violations,1572579
+111,2016,Gambling,3705
+112,2016,Offenses against family and children,88748
+113,2016,Driving under the influence,1017808
+114,2016,Liquor laws,234899
+115,2016,Drunkenness,376433
+116,2016,Disorderly conduct,369733
+117,2016,Vagrancy,24851
+118,2016,All other offenses,3254871
+119,2016,Suspicion (not included in totals),576
+120,2016,Curfew and loitering law violations,34176
+121,2017,Murder and nonnegligent manslaughter,12208
+122,2017,Forcible rape,23436
+123,2017,Robbery,94046
+124,2017,Aggravated assault,388927
+125,2017,Burglary,199266
+126,2017,Larceny-theft,950357
+127,2017,Motor vehicle theft,91023
+128,2017,Arson,9111
+131,2017,Other assaults,1062370
+132,2017,Forgery and counterfeiting,55604
+133,2017,Fraud,124232
+134,2017,Embezzlement,15967
+135,2017,Stolen property: buying or receiving or possessing,98660
+136,2017,Vandalism,188350
+137,2017,Weapons: carrying or possessing or etc.,164984
+138,2017,Prostitution and commercialized vice,36247
+139,2017,Sex offenses (except forcible rape and prostitution),48525
+140,2017,Drug abuse violations,1632921
+141,2017,Gambling,3237
+142,2017,Offenses against family and children,94062
+143,2017,Driving under the influence,990678
+144,2017,Liquor laws,207332
+145,2017,Drunkenness,366824
+146,2017,Disorderly conduct,353151
+147,2017,Vagrancy,23321
+148,2017,All other offenses,3290015
+149,2017,Suspicion (not included in totals),885
+150,2017,Curfew and loitering law violations,30131
+151,2012,Murder and nonnegligent manslaughter,11075
+152,2012,Forcible rape,18098
+153,2012,Robbery,103661
+154,2012,Aggravated assault,388362
+155,2012,Burglary,283582
+156,2012,Larceny-theft,1282352
+157,2012,Motor vehicle theft,68845
+158,2012,Arson,11433
+161,2012,Other assaults,1199476
+162,2012,Forgery and counterfeiting,67046
+163,2012,Fraud,153535
+164,2012,Embezzlement,16023
+165,2012,Stolen property: buying or receiving or possessing,97670
+166,2012,Vandalism,228463
+167,2012,Weapons: carrying or possessing or etc.,149286
+168,2012,Prostitution and commercialized vice,56575
+169,2012,Sex offenses (except forcible rape and prostitution),68355
+170,2012,Drug abuse violations,1552432
+171,2012,Gambling,7868
+172,2012,Offenses against family and children,107018
+173,2012,Driving under the influence,1282957
+174,2012,Liquor laws,441532
+175,2012,Drunkenness,511271
+176,2012,Disorderly conduct,543995
+177,2012,Vagrancy,27003
+178,2012,All other offenses,3448856
+179,2012,Suspicion (not included in totals),1532
+180,2012,Curfew and loitering law violations,70190
+181,2018,Murder and nonnegligent manslaughter,11970
+182,2018,Forcible rape,25205
+183,2018,Robbery,88128
+184,2018,Aggravated assault,395800
+185,2018,Burglary,178611
+186,2018,Larceny-theft,887622
+187,2018,Motor vehicle theft,91676
+188,2018,Arson,9387
+191,2018,Other assaults,1063535
+192,2018,Forgery and counterfeiting,50072
+193,2018,Fraud,119951
+194,2018,Embezzlement,14765
+195,2018,Stolen property: buying or receiving or possessing,93161
+196,2018,Vandalism,179828
+197,2018,Weapons: carrying or possessing or etc.,168403
+198,2018,Prostitution and commercialized vice,31147
+199,2018,Sex offenses (except forcible rape and prostitution),46937
+200,2018,Drug abuse violations,1654282
+201,2018,Gambling,3323
+202,2018,Offenses against family and children,87475
+203,2018,Driving under the influence,1001329
+204,2018,Liquor laws,173152
+205,2018,Drunkenness,328772
+206,2018,Disorderly conduct,329152
+207,2018,Vagrancy,23546
+208,2018,All other offenses,3231700
+209,2018,Suspicion (not included in totals),564
+210,2018,Curfew and loitering law violations,22031
+211,2011,Murder and nonnegligent manslaughter,10832
+212,2011,Forcible rape,19491
+213,2011,Robbery,106674
+214,2011,Aggravated assault,397707
+215,2011,Burglary,296707
+216,2011,Larceny-theft,1264986
+217,2011,Motor vehicle theft,66414
+218,2011,Arson,11776
+221,2011,Other assaults,1241722
+222,2011,Forgery and counterfeiting,70211
+223,2011,Fraud,168217
+224,2011,Embezzlement,16190
+225,2011,Stolen property: buying or receiving or possessing,93234
+226,2011,Vandalism,237638
+227,2011,Weapons: carrying or possessing or etc.,153519
+228,2011,Prostitution and commercialized vice,57345
+229,2011,Sex offenses (except forcible rape and prostitution),69225
+230,2011,Drug abuse violations,1531251
+231,2011,Gambling,8596
+232,2011,Offenses against family and children,116723
+233,2011,Driving under the influence,1215077
+234,2011,Liquor laws,500648
+235,2011,Drunkenness,534218
+236,2011,Disorderly conduct,582158
+237,2011,Vagrancy,29203
+238,2011,All other offenses,3532195
+239,2011,Suspicion (not included in totals),1424
+240,2011,Curfew and loitering law violations,76942
+241,2005,Murder and nonnegligent manslaughter,14062
+242,2005,Forcible rape,25528
+243,2005,Robbery,114616
+244,2005,Aggravated assault,449297
+245,2005,Burglary,298835
+246,2005,Larceny-theft,1146696
+247,2005,Motor vehicle theft,147459
+248,2005,Arson,16337
+251,2005,Other assaults,1301392
+252,2005,Forgery and counterfeiting,118455
+253,2005,Fraud,321521
+254,2005,Embezzlement,18970
+255,2005,Stolen property: buying or receiving or possessing,133856
+256,2005,Vandalism,279562
+257,2005,Weapons: carrying or possessing or etc.,193469
+258,2005,Prostitution and commercialized vice,84891
+259,2005,Sex offenses (except forcible rape and prostitution),91625
+260,2005,Drug abuse violations,1846351
+261,2005,Gambling,11180
+262,2005,Offenses against family and children,129128
+263,2005,Driving under the influence,1371919
+264,2005,Liquor laws,597838
+265,2005,Drunkenness,556167
+266,2005,Disorderly conduct,678231
+267,2005,Vagrancy,33227
+268,2005,All other offenses,3863785
+269,2005,Suspicion (not included in totals),3764
+270,2005,Curfew and loitering law violations,140835
+271,2005,Runaways,108954
+272,2006,Murder and nonnegligent manslaughter,13435
+273,2006,Forcible rape,24535
+274,2006,Robbery,125605
+275,2006,Aggravated assault,447948
+276,2006,Burglary,304801
+277,2006,Larceny-theft,1081157
+278,2006,Motor vehicle theft,137757
+279,2006,Arson,16582
+282,2006,Other assaults,1305757
+283,2006,Forgery and counterfeiting,108823
+284,2006,Fraud,280693
+285,2006,Embezzlement,20012
+286,2006,Stolen property: buying or receiving or possessing,122722
+287,2006,Vandalism,300679
+288,2006,Weapons: carrying or possessing or etc.,200782
+289,2006,Prostitution and commercialized vice,79673
+290,2006,Sex offenses (except forcible rape and prostitution),87252
+291,2006,Drug abuse violations,1889810
+292,2006,Gambling,12307
+293,2006,Offenses against family and children,131491
+294,2006,Driving under the influence,1460498
+295,2006,Liquor laws,645734
+296,2006,Drunkenness,553188
+297,2006,Disorderly conduct,703504
+298,2006,Vagrancy,36471
+299,2006,All other offenses,4022068
+300,2006,Suspicion (not included in totals),2482
+301,2006,Curfew and loitering law violations,152907
+302,2006,Runaways,114179
+303,2007,Murder and nonnegligent manslaughter,13480
+304,2007,Forcible rape,23307
+305,2007,Robbery,126715
+306,2007,Aggravated assault,433945
+307,2007,Burglary,303853
+308,2007,Larceny-theft,1172762
+309,2007,Motor vehicle theft,118231
+310,2007,Arson,15242
+313,2007,Other assaults,1305693
+314,2007,Forgery and counterfeiting,103448
+315,2007,Fraud,252873
+316,2007,Embezzlement,22381
+317,2007,Stolen property: buying or receiving or possessing,122061
+318,2007,Vandalism,291575
+319,2007,Weapons: carrying or possessing or etc.,188891
+320,2007,Prostitution and commercialized vice,77607
+321,2007,Sex offenses (except forcible rape and prostitution),83979
+322,2007,Drug abuse violations,1841182
+323,2007,Gambling,12161
+324,2007,Offenses against family and children,122812
+325,2007,Driving under the influence,1427494
+326,2007,Liquor laws,633654
+327,2007,Drunkenness,589402
+328,2007,Disorderly conduct,709105
+329,2007,Vagrancy,33666
+330,2007,All other offenses,3931965
+331,2007,Suspicion (not included in totals),2176
+332,2007,Curfew and loitering law violations,143002
+333,2007,Runaways,108879
+334,2008,Murder and nonnegligent manslaughter,12955
+335,2008,Forcible rape,22584
+336,2008,Robbery,129403
+337,2008,Aggravated assault,429969
+338,2008,Burglary,308479
+339,2008,Larceny-theft,1266706
+340,2008,Motor vehicle theft,98035
+341,2008,Arson,14125
+344,2008,Other assaults,1298342
+345,2008,Forgery and counterfeiting,90127
+346,2008,Fraud,234199
+347,2008,Embezzlement,21402
+348,2008,Stolen property: buying or receiving or possessing,111319
+349,2008,Vandalism,285012
+350,2008,Weapons: carrying or possessing or etc.,179661
+351,2008,Prostitution and commercialized vice,75004
+352,2008,Sex offenses (except forcible rape and prostitution),79914
+353,2008,Drug abuse violations,1702537
+354,2008,Gambling,9811
+355,2008,Offenses against family and children,118419
+356,2008,Driving under the influence,1483396
+357,2008,Liquor laws,625939
+358,2008,Drunkenness,611069
+359,2008,Disorderly conduct,685985
+360,2008,Vagrancy,33852
+361,2008,All other offenses,3835083
+362,2008,Suspicion (not included in totals),1650
+363,2008,Curfew and loitering law violations,133063
+364,2008,Runaways,109225
+365,2009,Murder and nonnegligent manslaughter,12418
+366,2009,Forcible rape,21407
+367,2009,Robbery,126725
+368,2009,Aggravated assault,421215
+369,2009,Burglary,299351
+370,2009,Larceny-theft,1334933
+371,2009,Motor vehicle theft,81797
+372,2009,Arson,12204
+375,2009,Other assaults,1319458
+376,2009,Forgery and counterfeiting,85844
+377,2009,Fraud,210255
+378,2009,Embezzlement,17920
+379,2009,Stolen property: buying or receiving or possessing,105303
+380,2009,Vandalism,270439
+381,2009,Weapons: carrying or possessing or etc.,166334
+382,2009,Prostitution and commercialized vice,71355
+383,2009,Sex offenses (except forcible rape and prostitution),77326
+384,2009,Drug abuse violations,1663582
+385,2009,Gambling,10360
+386,2009,Offenses against family and children,114564
+387,2009,Driving under the influence,1440409
+388,2009,Liquor laws,570333
+389,2009,Drunkenness,594300
+390,2009,Disorderly conduct,655322
+391,2009,Vagrancy,33388
+392,2009,All other offenses,3764672
+393,2009,Suspicion (not included in totals),1975
+394,2009,Curfew and loitering law violations,112593
+395,2009,Runaways,93434
+396,2010,Murder and nonnegligent manslaughter,11201
+397,2010,Forcible rape,20088
+398,2010,Robbery,112300
+399,2010,Aggravated assault,408488
+400,2010,Burglary,289769
+401,2010,Larceny-theft,1271410
+402,2010,Motor vehicle theft,71487
+403,2010,Arson,11296
+406,2010,Other assaults,1292449
+407,2010,Forgery and counterfeiting,78101
+408,2010,Fraud,187887
+409,2010,Embezzlement,16616
+410,2010,Stolen property: buying or receiving or possessing,94802
+411,2010,Vandalism,252753
+412,2010,Weapons: carrying or possessing or etc.,159020
+413,2010,Prostitution and commercialized vice,62668
+414,2010,Sex offenses (except forcible rape and prostitution),72628
+415,2010,Drug abuse violations,1638846
+416,2010,Gambling,9941
+417,2010,Offenses against family and children,111062
+418,2010,Driving under the influence,1412223
+419,2010,Liquor laws,512790
+420,2010,Drunkenness,560718
+421,2010,Disorderly conduct,615172
+422,2010,Vagrancy,32033
+423,2010,All other offenses,3720402
+424,2010,Suspicion (not included in totals),1166
+425,2010,Curfew and loitering law violations,94797
+426,2004,Murder and nonnegligent manslaughter,13467
+427,2004,Forcible rape,26066
+428,2004,Robbery,108992
+429,2004,Aggravated assault,438033
+430,2004,Burglary,294645
+431,2004,Larceny-theft,1185619
+432,2004,Motor vehicle theft,148429
+433,2004,Arson,15504
+436,2004,Other assaults,1284858
+437,2004,Forgery and counterfeiting,119518
+438,2004,Fraud,282938
+439,2004,Embezzlement,17332
+440,2004,Stolen property: buying or receiving or possessing,128529
+441,2004,Vandalism,272522
+442,2004,Weapons: carrying or possessing or etc.,175776
+443,2004,Prostitution and commercialized vice,87872
+444,2004,Sex offenses (except forcible rape and prostitution),90913
+445,2004,Drug abuse violations,1746570
+446,2004,Gambling,10755
+447,2004,Offenses against family and children,124936
+448,2004,Driving under the influence,1433382
+449,2004,Liquor laws,612528
+450,2004,Drunkenness,552671
+451,2004,Disorderly conduct,657637
+452,2004,Vagrancy,36404
+453,2004,All other offenses,3815435
+454,2004,Suspicion (not included in totals),3554
+455,2004,Curfew and loitering law violations,137398
+456,2004,Runaways,119342
+457,1999,Murder and nonnegligent manslaughter,14790
+458,1999,Forcible rape,28830
+459,1999,Robbery,108850
+460,1999,Aggravated assault,483530
+461,1999,Burglary,296100
+462,1999,Larceny-theft,1189400
+463,1999,Motor vehicle theft,142200
+464,1999,Arson,16800
+468,1999,Other assaults,1294400
+469,1999,Forgery and counterfeiting,106900
+470,1999,Fraud,363800
+471,1999,Embezzlement,17100
+472,1999,Stolen property: buying or receiving or possessing,121900
+473,1999,Vandalism,278200
+474,1999,Weapons: carrying or possessing or etc.,172400
+475,1999,Prostitution and commercialized vice,92100
+476,1999,Sex offenses (except forcible rape and prostitution),92400
+477,1999,Drug abuse violations,1532200
+478,1999,Gambling,10400
+479,1999,Offenses against family and children,151200
+480,1999,Driving under the influence,1511300
+481,1999,Liquor laws,657900
+482,1999,Drunkenness,656100
+483,1999,Disorderly conduct,633100
+484,1999,Vagrancy,30000
+485,1999,All other offenses,3728100
+486,1999,Suspicion (not included in totals),7500
+487,1999,Curfew and loitering law violations,167200
+488,1999,Runaways,148300
+489,1998,Murder and nonnegligent manslaughter,17450
+490,1998,Forcible rape,31070
+491,1998,Robbery,120870
+492,1998,Aggravated assault,506630
+493,1998,Burglary,330700
+494,1998,Larceny-theft,1307100
+495,1998,Motor vehicle theft,150700
+496,1998,Arson,17200
+500,1998,Other assaults,1338800
+501,1998,Forgery and counterfeiting,114600
+502,1998,Fraud,394600
+503,1998,Embezzlement,17100
+504,1998,Stolen property: buying or receiving or possessing,137900
+505,1998,Vandalism,300200
+506,1998,Weapons: carrying or possessing or etc.,190600
+507,1998,Prostitution and commercialized vice,94000
+508,1998,Sex offenses (except forcible rape and prostitution),93600
+509,1998,Drug abuse violations,1559100
+510,1998,Gambling,12800
+511,1998,Offenses against family and children,146400
+512,1998,Driving under the influence,1402800
+513,1998,Liquor laws,630400
+514,1998,Drunkenness,710300
+515,1998,Disorderly conduct,696100
+516,1998,Vagrancy,30400
+517,1998,All other offenses,3824100
+518,1998,Suspicion (not included in totals),5200
+519,1998,Curfew and loitering law violations,187800
+520,1998,Runaways,165100
+521,1997,Murder and nonnegligent manslaughter,18290
+522,1997,Forcible rape,32060
+523,1997,Robbery,132450
+524,1997,Aggravated assault,534920
+525,1997,Burglary,356000
+526,1997,Larceny-theft,1472600
+527,1997,Motor vehicle theft,167000
+528,1997,Arson,20000
+529,1997,Other assaults,1395800
+530,1997,Forgery and counterfeiting,120100
+531,1997,Fraud,414600
+532,1997,Embezzlement,17400
+533,1997,Stolen property: buying or receiving or possessing,155300
+534,1997,Vandalism,318400
+535,1997,Weapons: carrying or possessing or etc.,218900
+536,1997,Prostitution and commercialized vice,101600
+537,1997,Sex offenses (except forcible rape and prostitution),101900
+538,1997,Drug abuse violations,1583600
+539,1997,Gambling,15900
+540,1997,Offenses against family and children,155800
+541,1997,Driving under the influence,1477300
+542,1997,Liquor laws,636400
+543,1997,Drunkenness,734800
+544,1997,Disorderly conduct,811100
+545,1997,Vagrancy,28800
+546,1997,All other offenses,3884600
+547,1997,Suspicion (not included in totals),6500
+548,1997,Curfew and loitering law violations,182700
+549,1997,Runaways,196100
+550,1996,Murder and nonnegligent manslaughter,19020
+551,1996,Forcible rape,33050
+552,1996,Robbery,156270
+553,1996,Aggravated assault,521570
+554,1996,Burglary,364800
+555,1996,Larceny-theft,1486300
+556,1996,Motor vehicle theft,175400
+557,1996,Arson,19000
+558,1996,Other assaults,1329000
+559,1996,Forgery and counterfeiting,121600
+560,1996,Fraud,465000
+561,1996,Embezzlement,15700
+562,1996,Stolen property: buying or receiving or possessing,151100
+563,1996,Vandalism,320900
+564,1996,Weapons: carrying or possessing or etc.,216200
+565,1996,Prostitution and commercialized vice,99000
+566,1996,Sex offenses (except forcible rape and prostitution),95800
+567,1996,Drug abuse violations,1506200
+568,1996,Gambling,21000
+569,1996,Offenses against family and children,149800
+570,1996,Driving under the influence,1467300
+571,1996,Liquor laws,677400
+572,1996,Drunkenness,718700
+573,1996,Disorderly conduct,842600
+574,1996,Vagrancy,27800
+575,1996,All other offenses,3786700
+576,1996,Suspicion (not included in totals),4900
+577,1996,Curfew and loitering law violations,185100
+578,1996,Runaways,195700
+579,1995,Murder and nonnegligent manslaughter,21230
+580,1995,Forcible rape,34650
+581,1995,Robbery,171870
+582,1995,Aggravated assault,568480
+583,1995,Burglary,386500
+584,1995,Larceny-theft,1530200
+585,1995,Motor vehicle theft,191900
+586,1995,Arson,20000
+587,1995,Other assaults,1290400
+588,1995,Forgery and counterfeiting,122300
+589,1995,Fraud,436400
+590,1995,Embezzlement,15200
+591,1995,Stolen property: buying or receiving or possessing,166500
+592,1995,Vandalism,311100
+593,1995,Weapons: carrying or possessing or etc.,243900
+594,1995,Prostitution and commercialized vice,97700
+595,1995,Sex offenses (except forcible rape and prostitution),94500
+596,1995,Drug abuse violations,1476100
+597,1995,Gambling,19500
+598,1995,Offenses against family and children,142900
+599,1995,Driving under the influence,1436000
+600,1995,Liquor laws,594900
+601,1995,Drunkenness,708100
+602,1995,Disorderly conduct,748600
+603,1995,Vagrancy,25900
+604,1995,All other offenses,3865400
+605,1995,Suspicion (not included in totals),12100
+606,1995,Curfew and loitering law violations,149800
+607,1995,Runaways,249500
+608,2003,Murder and nonnegligent manslaughter,13190
+609,2003,Forcible rape,26350
+610,2003,Robbery,107553
+611,2003,Aggravated assault,449933
+612,2003,Burglary,290956
+613,2003,Larceny-theft,1145074
+614,2003,Motor vehicle theft,152934
+615,2003,Arson,16163
+616,2003,Other assaults,1246698
+617,2003,Forgery and counterfeiting,111823
+618,2003,Fraud,299138
+619,2003,Embezzlement,16826
+620,2003,Stolen property: buying or receiving or possessing,126775
+621,2003,Vandalism,273431
+622,2003,Weapons: carrying or possessing or etc.,167972
+623,2003,Prostitution and commercialized vice,75190
+624,2003,Sex offenses (except forcible rape and prostitution),91546
+625,2003,Drug abuse violations,1678192
+626,2003,Gambling,10954
+627,2003,Offenses against family and children,136034
+628,2003,Driving under the influence,1448148
+629,2003,Liquor laws,612079
+630,2003,Drunkenness,548616
+631,2003,Disorderly conduct,639371
+632,2003,Vagrancy,28948
+633,2003,All other offenses,3665543
+634,2003,Suspicion (not included in totals),7163
+635,2003,Curfew and loitering law violations,136461
+636,2003,Runaways,123581
+637,2002,Murder and nonnegligent manslaughter,14158
+638,2002,Forcible rape,28288
+639,2002,Robbery,105774
+640,2002,Aggravated assault,472290
+641,2002,Burglary,288291
+642,2002,Larceny-theft,1160085
+643,2002,Motor vehicle theft,148943
+644,2002,Arson,16635
+645,2002,Other assaults,1288682
+646,2002,Forgery and counterfeiting,115735
+647,2002,Fraud,337404
+648,2002,Embezzlement,18552
+649,2002,Stolen property: buying or receiving or possessing,126422
+650,2002,Vandalism,276697
+651,2002,Weapons: carrying or possessing or etc.,164446
+652,2002,Prostitution and commercialized vice,79733
+653,2002,Sex offenses (except forcible rape and prostitution),95066
+654,2002,Drug abuse violations,1538813
+655,2002,Gambling,10506
+656,2002,Offenses against family and children,140286
+657,2002,Driving under the influence,1461746
+658,2002,Liquor laws,653819
+659,2002,Drunkenness,572735
+660,2002,Disorderly conduct,669938
+661,2002,Vagrancy,27295
+662,2002,All other offenses,3662159
+663,2002,Suspicion (not included in totals),8899
+664,2002,Curfew and loitering law violations,141252
+665,2002,Runaways,125688
+666,2001,Murder and nonnegligent manslaughter,13653
+667,2001,Forcible rape,27270
+668,2001,Robbery,108400
+669,2001,Aggravated assault,477809
+670,2001,Burglary,291444
+671,2001,Larceny-theft,1160821
+672,2001,Motor vehicle theft,147451
+673,2001,Arson,18749
+674,2001,Other assaults,1315807
+675,2001,Forgery and counterfeiting,113741
+676,2001,Fraud,323308
+677,2001,Embezzlement,20157
+678,2001,Stolen property: buying or receiving or possessing,121972
+679,2001,Vandalism,270645
+680,2001,Weapons: carrying or possessing or etc.,165896
+681,2001,Prostitution and commercialized vice,80854
+682,2001,Sex offenses (except forcible rape and prostitution),91828
+683,2001,Drug abuse violations,1586902
+684,2001,Gambling,11112
+685,2001,Offenses against family and children,143683
+686,2001,Driving under the influence,1434852
+687,2001,Liquor laws,610591
+688,2001,Drunkenness,618668
+689,2001,Disorderly conduct,621394
+690,2001,Vagrancy,27935
+691,2001,All other offenses,3618164
+692,2001,Suspicion (not included in totals),3955
+693,2001,Curfew and loitering law violations,142889
+694,2001,Runaways,133259
+695,2000,Murder and nonnegligent manslaughter,13227
+696,2000,Forcible rape,27469
+697,2000,Robbery,106130
+698,2000,Aggravated assault,478417
+699,2000,Burglary,289844
+700,2000,Larceny-theft,1166362
+701,2000,Motor vehicle theft,148225
+702,2000,Arson,16530
+703,2000,Other assaults,1312169
+704,2000,Forgery and counterfeiting,108654
+705,2000,Fraud,345732
+706,2000,Embezzlement,18952
+707,2000,Stolen property: buying or receiving or possessing,118641
+708,2000,Vandalism,281305
+709,2000,Weapons: carrying or possessing or etc.,159181
+710,2000,Prostitution and commercialized vice,87620
+711,2000,Sex offenses (except forcible rape and prostitution),93399
+712,2000,Drug abuse violations,1579566
+713,2000,Gambling,10842
+714,2000,Offenses against family and children,147663
+715,2000,Driving under the influence,1471289
+716,2000,Liquor laws,683124
+717,2000,Drunkenness,637554
+718,2000,Disorderly conduct,638740
+719,2000,Vagrancy,32542
+720,2000,All other offenses,3710434
+721,2000,Suspicion (not included in totals),5682
+722,2000,Curfew and loitering law violations,154711
+723,2000,Runaways,141975

@@ -1,0 +1,328 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column offense",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "offense",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Stolen property: buying or receiving or possessing",
+          "Stolen property (buying, receiving, possessing)"
+        ],
+        "to": "Stolen property (buying or receiving or possessing)"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Offenses against family and children",
+          "Offenses against the family and children"
+        ],
+        "to": "Offenses against family and children"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Weapons: carrying or possessing or etc.",
+          "Weapons (carrying, possessing, etc.)"
+        ],
+        "to": "Weapons (carrying or possessing or etc.)"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Curfew and loitering law violations",
+          "Curfew and loitering"
+        ],
+        "to": "Curfew and loitering law violations"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column offense",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "offense",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sex offenses (except forcible rape and prostitution)",
+          "Sex offense (except forcible rape and prostitution)"
+        ],
+        "to": "Sex offenses (except forcible rape and prostitution)"
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column offense using expression grel:\"All other offenses\"",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "offense",
+          "expression": "value",
+          "columnName": "offense",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "All other offenses (except traffic)",
+                "l": "All other offenses (except traffic)"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "offense",
+    "expression": "grel:\"All other offenses\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column offense using expression grel:\"Other assault\"",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "offense",
+          "expression": "value",
+          "columnName": "offense",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Simple assault",
+                "l": "Simple assault"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "offense",
+    "expression": "grel:\"Other assault\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column offense using expression grel:value + 's'",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "offense",
+          "expression": "value",
+          "columnName": "offense",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Other assault",
+                "l": "Other assault"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "offense",
+    "expression": "grel:value + 's'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column File",
+    "columnName": "File"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column id at index 7 based on column year using expression jython:import random\nreturn str(random.randint(0, 10000000))",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "id",
+    "columnInsertIndex": 7,
+    "baseColumnName": "year",
+    "expression": "jython:import random\nreturn str(random.randint(0, 10000000))",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 0",
+    "columnName": "id",
+    "index": 0
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column year to position 0",
+    "columnName": "year",
+    "index": 0
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column year to position 1",
+    "columnName": "year",
+    "index": 1
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column year to position 2",
+    "columnName": "year",
+    "index": 2
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column year to position 7",
+    "columnName": "year",
+    "index": 7
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column white using expression jython:return",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "total",
+          "columnName": "total",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        },
+        {
+          "name": "white",
+          "columnName": "white",
+          "query": "NA",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "white",
+    "expression": "jython:return",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column black using expression jython:return",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "black",
+          "columnName": "black",
+          "query": "NA",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "black",
+    "expression": "jython:return",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column american_indian using expression jython:return",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "american_indian",
+          "columnName": "american_indian",
+          "query": "NA",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "american_indian",
+    "expression": "jython:return",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column asian using expression jython:return",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "asian",
+          "columnName": "asian",
+          "query": "NA",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "asian",
+    "expression": "jython:return",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]

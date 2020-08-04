@@ -1,0 +1,706 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column number using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "number",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column year using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "year",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column category",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "category",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Vagrancy",
+          "Vagrancy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "Vagrancy ......................................................................",
+          "Vagrancy ........................................................................"
+        ],
+        "to": "Vagrancy"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Gambling",
+          "Gambling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "Gambling .....................................................................",
+          "Gambling ......................................................................."
+        ],
+        "to": "Gambling"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sex offenses (except forcible rape and prostitution)",
+          "Sex offenses (except forcible rape and prostitution) . . . . . . .",
+          "Sex offenses (except forcible rape and prostitution) ....",
+          "Sex offenses (except forcible rape and prostitution) ....."
+        ],
+        "to": "Sex offenses (except forcible rape and prostitution)"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Forcible rape",
+          "Forcible rape . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "Forcible rape .................................................................",
+          "Forcible rape .................................................................."
+        ],
+        "to": "Forcible rape"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Drunkenness",
+          "Drunkenness . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "Drunkenness ................................................................",
+          "Drunkenness .................................................................."
+        ],
+        "to": "Drunkenness"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Vandalism",
+          "Vandalism . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "Vandalism ....................................................................",
+          "Vandalism ......................................................................."
+        ],
+        "to": "Vandalism"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Drug abuse violations",
+          "Drug abuse violations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "Drug abuse violations .................................................",
+          "Drug abuse violations ...................................................."
+        ],
+        "to": "Drug abuse violations"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Runaways",
+          "Runaways . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "Runaways ....................................................................",
+          "Runaways ......................................................................"
+        ],
+        "to": "Runaways"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "All other offenses",
+          "All other offenses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "All other offenses ........................................................",
+          "All other offenses .........................................................."
+        ],
+        "to": "All other offenses"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Disorderly conduct",
+          "Disorderly conduct . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "Disorderly conduct ......................................................",
+          "Disorderly conduct ......................................................."
+        ],
+        "to": "Disorderly conduct"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Motor vehicle theft",
+          "Motor vehicle theft . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "Motor vehicle theft ........................................................",
+          "Motor vehicle theft ........................................................."
+        ],
+        "to": "Motor vehicle theft"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Liquor laws",
+          "Liquor laws . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "Liquor laws ..................................................................",
+          "Liquor laws ...................................................................."
+        ],
+        "to": "Liquor laws"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Embezzlement",
+          "Embezzlement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "Embezzlement .............................................................",
+          "Embezzlement ................................................................"
+        ],
+        "to": "Embezzlement"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Prostitution and commercialized vice",
+          "Prostitution and commercialized vice . . . . . . . . . . . . . . . . . .",
+          "Prostitution and commercialized vice ........................",
+          "Prostitution and commercialized vice ..........................."
+        ],
+        "to": "Prostitution and commercialized vice"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Forgery and counterfeiting",
+          "Forgery and counterfeiting . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "Forgery and counterfeiting ...........................................",
+          "Forgery and counterfeiting ............................................."
+        ],
+        "to": "Forgery and counterfeiting"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Weapons; carrying, possessing, etc.",
+          "Weapons; carrying, possessing, etc. . . . . . . . . . . . . . . . . . . .",
+          "Weapons; carrying, possessing, etc. ...........................",
+          "Weapons; carrying, possessing, etc. ............................."
+        ],
+        "to": "Weapons; carrying, possessing, etc."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Driving under the influence",
+          "Driving under the influence . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "Driving under the influence ........................................",
+          "Driving under the influence ..........................................."
+        ],
+        "to": "Driving under the influence"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Fraud",
+          "Fraud . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "Fraud ..............................................................................",
+          "Fraud .............................................................................. "
+        ],
+        "to": "Fraud"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Murder and nonnegligent manslaughter",
+          "Murder and nonnegligent manslaughter . . . . . . . . . . . . . . . . . .",
+          "Murder and nonnegligent manslaughter .......................",
+          "Murder and nonnegligent manslaughter ........................."
+        ],
+        "to": "Murder and nonnegligent manslaughter"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Curfew and loitering law violations",
+          "Curfew and loitering law violations . . . . . . . . . . . . . . . . . . .",
+          "Curfew and loitering law violations ...........................",
+          "Curfew and loitering law violations ................................"
+        ],
+        "to": "Curfew and loitering law violations"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Stolen property; buying, receiving, possessing",
+          "Stolen property; buying, receiving, possessing . . . . . . . . . . .",
+          "Stolen property; buying, receiving, possessing .........",
+          "Stolen property; buying, receiving, possessing ..............."
+        ],
+        "to": "Stolen property; buying, receiving, possessing"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Robbery",
+          "Robbery .........................................................................",
+          "Robbery . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ],
+        "to": "Robbery"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Arson",
+          "Arson . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "Arson ............................................................................."
+        ],
+        "to": "Arson"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Aggravated assault",
+          "Aggravated assault ........................................................",
+          "Aggravated assault . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ],
+        "to": "Aggravated assault"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Burglary",
+          "Burglary .........................................................................",
+          "Burglary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ],
+        "to": "Burglary"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Other assaults",
+          "Other assaults ................................................................",
+          "Other assaults . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ],
+        "to": "Other assaults"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Offenses against family and children . . . . . . . . . . . . . . . . . .",
+          "Offenses against family and children .........................",
+          "Offenses against family and children ............................"
+        ],
+        "to": "Offenses against family and children . . . . . . . . . . . . . . . . . ."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Suspicion (not included in totals) . . . . . . . . . . . . . . . . . . . . .",
+          "Suspicion (not included in totals) ...............................",
+          "Suspicion (not included in totals) ...................................."
+        ],
+        "to": "Suspicion (not included in totals) . . . . . . . . . . . . . . . . . . . . ."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Violent crime2",
+          " Violent crime2"
+        ],
+        "to": "Violent crime2"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Property crime2",
+          " Property crime2"
+        ],
+        "to": "Property crime2"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Larceny-theft",
+          "Larceny-theft ................................................................."
+        ],
+        "to": "Larceny-theft"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column category",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "category",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Larceny–theft . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "Larceny–theft ................................................................"
+        ],
+        "to": "Larceny–theft"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column category",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "category",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Violent crime3",
+          "Violent crime 3"
+        ],
+        "to": "Violent crime3"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column category",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "category",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Property crime2",
+          "Property crime3",
+          "Property crime 4",
+          "Property crime 5"
+        ],
+        "to": "Property crime2"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Violent crime2",
+          "Violent crime3",
+          "Violent crime 4"
+        ],
+        "to": "Violent crime2"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Larceny-theft",
+          "Larceny–theft"
+        ],
+        "to": "Larceny-theft"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Arson",
+          "Arson ..........................................................................…"
+        ],
+        "to": "Arson"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sex offenses (except forcible rape and prostitution)",
+          "Sex offenses (except rape and prostitution)"
+        ],
+        "to": "Sex offenses (except forcible rape and prostitution)"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Offenses against the family and children",
+          "Offenses against family and children . . . . . . . . . . . . . . . . . ."
+        ],
+        "to": "Offenses against family and children"
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column category using expression grel:\"Rape\"",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "category",
+          "columnName": "category",
+          "query": "rape2",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "category",
+    "expression": "grel:\"Rape\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column category using expression grel:\"Forcible Rape\"",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "category",
+          "columnName": "category",
+          "query": "Rape",
+          "mode": "regex",
+          "caseSensitive": true,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "category",
+    "expression": "grel:\"Forcible Rape\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column category",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "category",
+          "columnName": "category",
+          "query": "Rape",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "category",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Forcible rape",
+          "Forcible Rape"
+        ],
+        "to": "Forcible rape"
+      }
+    ]
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "category",
+          "columnName": "category",
+          "query": "[0-9]",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column category using expression grel:\"Suspicion (not included in totals)\"",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "category",
+          "columnName": "category",
+          "query": "Suspicion",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "category",
+    "expression": "grel:\"Suspicion (not included in totals)\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "category",
+          "expression": "value",
+          "columnName": "category",
+          "invert": false,
+          "selection": [],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": true,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column category using expression grel:value.replace(\",\", \" or\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "category",
+          "columnName": "category",
+          "query": ",",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "category",
+    "expression": "grel:value.replace(\",\", \" or\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column category using expression grel:value.replace(\";\", \":\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "category",
+          "columnName": "category",
+          "query": ";",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "category",
+    "expression": "grel:value.replace(\";\", \":\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column year using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "year",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column id using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column number using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "number",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]

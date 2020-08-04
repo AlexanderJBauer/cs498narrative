@@ -43,6 +43,12 @@
   animation-name: fade-in;
 }
 
+.fade-in-long {
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-name: fade-in;
+}
+
 @keyframes fade-out {
   from {
     opacity: 1;
@@ -53,6 +59,12 @@
 }
 .fade-out {
   animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-name: fade-out;
+}
+
+.fade-out-long {
+  animation-duration: 0.4s;
   animation-fill-mode: forwards;
   animation-name: fade-out;
 }
@@ -97,6 +109,7 @@
   margin-right: 50px;
   margin-top: 50px;
   padding: 1em;
+  padding-left: 50px;
   position: sticky;
   top: 50px;
 }
@@ -139,6 +152,22 @@
 .contents img {
   max-width: 100%;
 }
+.contents .section-holder {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.contents section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.contents section.hidden {
+  opacity: 0;
+}
+.contents section.visible {
+  opacity: 1;
+}
 .contents .code-block {
   max-width: 100%;
   overflow: auto;
@@ -153,17 +182,24 @@
   background-color: #f9f9f9;
   padding: 4px;
 }
-.contents h1 h2 {
-  padding-top: 1em;
-}
-.contents h1 {
-  margin-top: 1.2em;
+.contents h1,
+.contents h2 {
+  margin-top: 0;
+  padding-top: 1.2em;
 }
 .contents h1 {
   font-size: 2em;
 }
 .contents h2 {
   font-size: 1.5em;
+}
+
+.chart {
+  flex-grow: 1;
+}
+
+#configEditor {
+  min-height: 30vh;
 }
 
 /*# sourceMappingURL=application.css.map */

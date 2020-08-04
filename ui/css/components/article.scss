@@ -7,6 +7,26 @@
     max-width: 100%;
   }
 
+  .section-holder {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    &.hidden {
+      opacity: 0;
+    }
+
+    &.visible {
+      opacity: 1;
+    }
+  }
+
   .code-block {
     max-width: 100%;
     overflow: auto;
@@ -24,13 +44,10 @@
     padding: 4px;
   }
 
-  h1
+  h1,
   h2 {
-    padding-top: 1em;
-  }
-
-  h1 {
-    margin-top: 1.2em;
+    margin-top: 0;
+    padding-top: 1.2em;
   }
 
   h1 {
@@ -40,4 +57,12 @@
   h2 {
     font-size: 1.5em;
   }
+}
+
+.chart {
+  flex-grow: 1;
+}
+
+#configEditor {
+  min-height: 30vh;
 }
